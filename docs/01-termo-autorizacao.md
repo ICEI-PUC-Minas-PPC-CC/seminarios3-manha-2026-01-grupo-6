@@ -2,9 +2,9 @@
 
 > **Status:**  (adicione um "x" para completar cada nível)
 
-- [x] Visualizado
+- [ ] Visualizado
 - [ ] Pendente
-- [ ] Enviado ao professor
+- [x] Enviado ao professor
 - [ ] Aprovado  
 
 > **Versão do termo .docx:** [baixar na atividade do Canvas]
@@ -15,10 +15,10 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome do Grupo | |
-| Integrantes | |
-| E-mail de contato | |
-| Telefone de contato | |
+| Nome do Grupo | Grupo 6 |
+| Integrantes | Cecília Teresa Bernardes<br>Domiciano Gabriel Negrini Vieira<br>Gabriela Campos Dias |
+| E-mail de contato | dgnvieira@sga.pucminas.br |
+| Telefone de contato | (35) 999460409 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
