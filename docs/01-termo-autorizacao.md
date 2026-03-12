@@ -24,7 +24,7 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome da instituição | |
+| Nome da instituição | Tarso de Coimbra |
 | Endereço | |
 | Nome do responsável | |
 | Cargo/Função | |
