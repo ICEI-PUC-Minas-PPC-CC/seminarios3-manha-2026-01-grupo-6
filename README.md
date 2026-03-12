@@ -10,10 +10,10 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| **Nome do Grupo** | *(preencher)* |
-| **Integrantes** | *(listar todos)* |
-| **E-mail de contato** | *(preencher)* |
-| **Comunidade parceira** | *(preencher)* |
+| **Nome do Grupo** | *(Grupo 6)* |
+| **Integrantes** | *(Cecília Teresa Bernardes<br>Domiciano Gabriel Negrini Vieira<br>Gabriela Campos Dias)* |
+| **E-mail de contato** | *(dgnvieira@sga.pucminas.br)* |
+| **Comunidade parceira** | *(Tarso de Coimbra)* |
 
 ---
 
