@@ -36,7 +36,7 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Título/Tema da aplicação | |
+| Título/Tema da aplicação | Dicionário das Virtudes |
 | Público-alvo | |
 | Nº estimado de usuários | |
 | Faixa etária do público | |
