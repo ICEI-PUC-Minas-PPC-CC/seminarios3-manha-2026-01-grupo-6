@@ -24,7 +24,7 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome da instituição | Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra |
+| Nome da instituição | Tarso de Coimbra |
 | Endereço | |
 | Nome do responsável | |
 | Cargo/Função | |
