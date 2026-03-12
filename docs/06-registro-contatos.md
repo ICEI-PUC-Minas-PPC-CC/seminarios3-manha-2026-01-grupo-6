@@ -23,7 +23,16 @@
 | Objetivo do contato | Roda de conversa |
 
 **Resumo do que foi tratado:**
-(Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
+  Na reunião, foi discutido o desenvolvimento de um material educativo sobre virtudes voltado para pessoas com surdez e deficiência auditiva, considerando tanto pessoas alfabetizadas quanto não alfabetizadas em língua portuguesa. O material poderá utilizar Libras, recursos visuais e apoio de terapia fonoaudiológica, com foco em estimular a interação social e proporcionar momentos de descontração com crianças surdas. Também foi ressaltado o uso da tecnologia como ferramenta de inclusão social.
+  Foram sugeridas atividades interativas e jogos que trabalham valores e consequências das ações.
+Outras ideias incluíram:
+uso de recursos visuais e de luzes para facilitar a comunicação com pessoas surdas;
+criação de um dicionário visual das virtudes com imagens e sinais;
+desenvolvimento de jogos de ação e consequência;
+atividades com cenas, palavras e sinais, semelhantes ao jogo Lince;
+possibilidade de criar quadrinhos personalizados;
+exploração de temas do cotidiano, como cômodos da casa e situações de comércio ou educação financeira.
+  De modo geral, a reunião focou em propostas de conteúdos educativos, interativos e visuais que promovam aprendizado de valores, inclusão social e acessibilidade para pessoas surdas.
 
 **Encaminhamentos:**
 (O que ficou combinado para a próxima interação?)
