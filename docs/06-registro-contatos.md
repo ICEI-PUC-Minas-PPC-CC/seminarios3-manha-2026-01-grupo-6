@@ -16,11 +16,11 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | |
-| Forma de contato | *(Presencial / Online / E-mail / Telefone / WhatsApp)* |
-| Participantes do grupo | |
-| Participantes da comunidade | |
-| Objetivo do contato | |
+| Data | 06/03/2026 |
+| Forma de contato | *Online* |
+| Participantes do grupo | Cecília Teresa Bernardes<br>Domiciano Gabriel Negrini Vieira<br>Gabriela Campos Dias |
+| Participantes da comunidade | Fabiana |
+| Objetivo do contato | Roda de conversa |
 
 **Resumo do que foi tratado:**
 (Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
