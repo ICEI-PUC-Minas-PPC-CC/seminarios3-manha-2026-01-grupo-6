@@ -35,7 +35,7 @@ exploração de temas do cotidiano, como cômodos da casa e situações de comé
   De modo geral, a reunião focou em propostas de conteúdos educativos, interativos e visuais que promovam aprendizado de valores, inclusão social e acessibilidade para pessoas surdas.
 
 **Encaminhamentos:**
-(O que ficou combinado para a próxima interação?)
+Após a reunião e a definição do tema do projeto, o grupo irá buscar informações mais específicas junto à comunidade parceira, com o objetivo de compreender melhor suas necessidades, estrutura e detalhes do problema, orientando assim os próximos passos do desenvolvimento da solução.
 
 ---
 
