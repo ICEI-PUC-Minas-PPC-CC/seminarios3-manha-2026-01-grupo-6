@@ -19,7 +19,9 @@
 
 ## 🎯 Software a Ser Desenvolvido
 
-(Descreva brevemente a aplicação que será desenvolvida e seu objetivo.)
+Será desenvolvido um dicionário interativo de valores, no qual cada valor (como gentileza, respeito, entre outros) será representado por um botão na interface.
+Ao selecionar um desses botões, o sistema exibirá o respectivo sinal em Libras, permitindo ao usuário aprender a representação visual de cada conceito de forma prática e acessível.
+
 
 ---
 
