@@ -45,7 +45,7 @@
 
 ### Breve descrição da aplicação e sua finalidade
 
-(Descreva aqui o software que será desenvolvido, seus objetivos e como atende às demandas da comunidade.)
+A aplicação tem como finalidade promover acessibilidade e inclusão por meio do ensino de valores em Libras. Para isso, será desenvolvido um dicionário interativo de valores, no qual cada valor (como gentileza, respeito, entre outros) será representado por um botão na interface. Ao selecionar um desses botões, o sistema exibirá o respectivo sinal em Libras, permitindo ao usuário aprender a representação visual de cada conceito de forma simples, prática e intuitiva.
 
 ## 4. Levantamento de Demandas da Comunidade
 
