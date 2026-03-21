@@ -53,14 +53,14 @@
 
 ### Ambiente de desenvolvimento
 
-Editor: Visual Studio Code
-Linguagens: HTML, CSS e JavaScript
+Editor: Visual Studio Code,
+Linguagens: HTML, CSS e JavaScript,
 Controle de versão: Git + GitHub
 
 ### Estratégia de testes
 
-Testes manuais em diferentes navegadores
-Verificação dos botões e exibição correta dos sinais
+Testes manuais em diferentes navegadores,
+Verificação dos botões e exibição correta dos sinais,
 Testes com usuários (colegas ou comunidade)
 
 ### Estratégia de deploy
