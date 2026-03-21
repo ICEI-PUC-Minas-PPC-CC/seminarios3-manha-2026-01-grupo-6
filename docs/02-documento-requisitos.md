@@ -1,23 +1,23 @@
 # 02 — Documento de Requisitos do Software
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Grupo:** *Cecilia Teresa Bernardes, Domiciano Gabriel Negrini Vieira, Gabriela Campos Dias*  
+> **Aplicação:** *Dicionário Interativo de Valores em Libras*  
+> **Comunidade:** *Tarso de Coimbra*
 
 ---
 
 ## 1. Visão Geral
 
-(Descreva em poucas frases o que é a aplicação, para quem ela é destinada e qual problema ela resolve.)
+A aplicação consiste em um dicionário interativo de valores, onde cada valor (como respeito, empatia e gentileza) é representado por um botão na interface. Ao clicar em um valor, o usuário visualiza um vídeo com o sinal correspondente em Libras. O sistema é destinado principalmente à comunidade surda e às pessoas que desejam aprender Libras de forma acessível, prática e visual. O problema que a aplicação resolve é a dificuldade de acesso a conteúdos educativos visuais sobre valores em Libras.
 
 ## 2. Público-Alvo
 
 | Campo | Informação |
 | ------- | ----------- |
-| Perfil dos usuários | |
-| Faixa etária | |
-| Necessidades de acessibilidade | |
-| Nível de familiaridade com tecnologia | |
+| Perfil dos usuários | Pessoas surdas, estudantes, professores e iniciantes em Libras |
+| Faixa etária | A partir de 10 anos |
+| Necessidades de acessibilidade | Conteúdo visual, vídeos em Libras, interface simples e intuitiva |
+| Nível de familiaridade com tecnologia | Básico |
 
 > **Lembrete (Tarso de Coimbra):** Os usuários podem ter deficiência auditiva/surdez. A interface deve ser **visual, intuitiva e de baixa complexidade**. Priorize elementos visuais (imagens, ícones, cores) sobre texto extenso.
 
@@ -25,11 +25,9 @@
 
 | ID | Requisito | Prioridade | Origem da demanda |
 | ---- | ---------- | :----------: | ------------------ |
-| RF01 | | *(Alta/Média/Baixa)* | *(Reunião com a comunidade em DD/MM)* |
-| RF02 | | | |
-| RF03 | | | |
-| RF04 | | | |
-| RF05 | | | |
+| RF01 | Exibir lista de valores em forma de botões na tela inicial | *Alta* | (Reunião com a comunidade em 06/03) |
+| RF02 | Permitir ao usuário clicar em um valor | Alta	 | (Reunião com a comunidade em 06/03) |
+| RF03 | Exibir vídeo em Libras correspondente ao valor selecionado | Alta | (Reunião com a comunidade em 06/03) |
 
 ## 4. Requisitos Não Funcionais
 
@@ -38,8 +36,8 @@
 | RNF01 | A aplicação deve ser acessível via navegador web | Acessibilidade |
 | RNF02 | A interface deve ser simples e intuitiva | Usabilidade |
 | RNF03 | A aplicação deve funcionar em dispositivos móveis | Compatibilidade |
-| RNF04 | | |
-| RNF05 | | |
+| RNF04 | A aplicação deve ter boa organização visual e responsividade | Usabilidade |
+| RNF05 | Os vídeos devem ser carregados rapidamente | Desempenho |
 
 ## 5. Requisitos de Acessibilidade
 
@@ -49,13 +47,12 @@
 - [ ] Contraste adequado de cores
 - [ ] Compatível com Libras (se aplicável: vídeos, sinais, glossário)
 - [ ] Sem dependência de áudio para funcionalidades essenciais
-- [ ] Outro: *(especificar)*
 
 ## 6. Tecnologias Escolhidas
 
 | Componente | Tecnologia |
 | ----------- | ----------- |
-| Front-end | |
+| Front-end | HTML, CSS e JavaScript |
 | Back-end (se houver) | |
 | Banco de dados (se houver) | |
 | Hospedagem | |
@@ -69,11 +66,13 @@
 
 (Quais funcionalidades compõem a versão mínima que pode ser entregue à comunidade?)
 
-- [ ] *(Funcionalidade 1)*
-- [ ] *(Funcionalidade 2)*
-- [ ] *(Funcionalidade 3)*
+- [ ] *(Exibição dos valores em botões)*
+- [ ] *(Clique no botão para selecionar valor)*
+- [ ] *(Exibição de vídeo em libras correspondentes)*
 
 ## 9. Funcionalidades Desejáveis (se houver tempo)
 
-- *(Funcionalidade extra 1)*
-- *(Funcionalidade extra 2)*
+- *(Adicionar descrição textual do valor)*
+- *(Sistema de busca por valores)*
+- *(Valores favoritos)*
+- *(Adicione mais categorias (emoções, ações, etc.))*
