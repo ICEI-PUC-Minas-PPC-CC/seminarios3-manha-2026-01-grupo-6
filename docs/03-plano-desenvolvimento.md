@@ -11,9 +11,9 @@
 
 | Integrante | Responsabilidades principais |
 | ----------- | ------------------------------ |
-|Domiciano | |
-| | |
-| | |
+|Domiciano |Desenvolvimento front-end |
+|Cecilia |Design da interface |
+|Gabriela |Pesquisa de sinais em Libras e conteúdo |
 | | |
 
 ## 2. Cronograma de Desenvolvimento
