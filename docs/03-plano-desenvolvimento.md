@@ -1,7 +1,7 @@
 # 03 — Plano e Cronograma de Desenvolvimento
 
-> **Grupo:** *Cecília Teresa Bernardes
-              Domiciano Gabriel Negrini Vieira
+> **Grupo:** *Cecília Teresa Bernardes,
+              Domiciano Gabriel Negrini Vieira,
               Gabriela Campos Dias*  
 > **Aplicação:** *Dicionário Interativo de Valores em Libras*
 
@@ -11,7 +11,7 @@
 
 | Integrante | Responsabilidades principais |
 | ----------- | ------------------------------ |
-| | |
+|Domiciano | |
 | | |
 | | |
 | | |
