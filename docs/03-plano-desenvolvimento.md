@@ -32,8 +32,8 @@
 | 10 | | Testes e ajustes | | não iniciado |
 | 11 | | Deploy / hospedagem | | não iniciado |
 | 12 | | Validação final com a comunidade | | não iniciado |
-| 13 | | **Entrega presencial** | Todos | não iniciado |
-| 14 | | Preenchimento dos relatórios APC | Todos | não iniciado |
+| 13 | 06/06 | **Entrega presencial** | Todos | não iniciado |
+| 14 | 13/06 | Preenchimento dos relatórios APC | Todos | não iniciado |
 
 > Ajuste o cronograma conforme o calendário do semestre e os feriados.
 
