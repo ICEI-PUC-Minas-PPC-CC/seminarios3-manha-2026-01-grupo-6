@@ -1,7 +1,9 @@
 # 03 — Plano e Cronograma de Desenvolvimento
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*
+> **Grupo:** *Cecília Teresa Bernardes
+              Domiciano Gabriel Negrini Vieira
+              Gabriela Campos Dias*  
+> **Aplicação:** *Dicionário Interativo de Valores em Libras*
 
 ---
 
