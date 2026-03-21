@@ -25,7 +25,7 @@ A aplicação consiste em um dicionário interativo de valores, onde cada valor 
 
 | ID | Requisito | Prioridade | Origem da demanda |
 | ---- | ---------- | :----------: | ------------------ |
-| RF01 | Exibir lista de valores em forma de botões na tela inicial | *Alta* | (Reunião com a comunidade em 06/03) |
+| RF01 | Exibir lista de valores em forma de botões na tela inicial | Alta | (Reunião com a comunidade em 06/03) |
 | RF02 | Permitir ao usuário clicar em um valor | Alta	 | (Reunião com a comunidade em 06/03) |
 | RF03 | Exibir vídeo em Libras correspondente ao valor selecionado | Alta | (Reunião com a comunidade em 06/03) |
 
@@ -60,7 +60,7 @@ A aplicação consiste em um dicionário interativo de valores, onde cada valor 
 
 ## 7. Protótipo / Wireframes
 
-(Inclua esboços das telas principais ou links para protótipos — mesmo rascunhos simples em papel são válidos. Salvem imagens dos wireframes em `evidencias/prints/`.)
+![prototipo](https://github.com/user-attachments/assets/180326b2-bd2a-4776-9211-d23088d0480c)
 
 ## 8. Escopo Mínimo Viável (MVP)
 
