@@ -62,7 +62,7 @@ A aplicação consiste em um dicionário interativo de valores, onde cada valor 
 
 ![prototipo](https://github.com/user-attachments/assets/180326b2-bd2a-4776-9211-d23088d0480c)
 
-![pop-up](https://github.com/user-attachments/assets/d82bc830-d219-4563-921e-8994807dddac)
+![pop-up](https://github.com/user-attachments/assets/fb04931c-2d43-4e47-ae9d-a79627e405e9)
 
 ## 8. Escopo Mínimo Viável (MVP)
 
