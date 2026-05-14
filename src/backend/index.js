@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = 3000;
+
+const PORT = process.env.PORT || 3000;
+const ENDPOINT_VIRTUDES = '/api/valores';
 
 app.use(cors());
 app.use(express.json());
@@ -36,3 +38,13 @@ const virtudesCardeais = [
     },
 
 ]
+
+app.get(ENDPOINT_VIRTUDES, (req, res) => {
+    res.json(virtudesCardeais);
+});
+
+app.listen(PORT, () => {
+    console.log(`Servidor backend rodando em http://localhost:${PORT}`);
+    console.log(`Rota de dados em: http://localhost:${PORT}${ENDPOINT_VIRTUDES}`);
+    console.log(`Aguarando conexão com o frontend`);
+})
