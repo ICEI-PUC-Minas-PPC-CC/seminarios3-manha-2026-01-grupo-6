@@ -1,0 +1,54 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#ffd166;
+  --muted:#cbd5e1;
+  --radius:12px;
+  --gap:18px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:linear-gradient(180deg,var(--bg),#071023 120%);
+  color:var(--muted);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.site-header{padding:34px 20px 8px;text-align:center}
+.site-header h1{margin:0;font-size:2rem;color:var(--accent);letter-spacing:0.6px}
+.lead{margin:8px 0 0;font-size:1.05rem;color:#e6eef8}
+.container{display:grid;grid-template-columns:1fr 320px;gap:28px;max-width:1100px;margin:28px auto;padding:0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);overflow:hidden;border:1px solid rgba(255,255,255,0.04)}
+.card summary{list-style:none;cursor:pointer;display:flex;align-items:center;padding:18px;gap:14px;outline:none}
+.card-summary{display:flex;align-items:center;gap:14px}
+.card-summary:focus{box-shadow:0 0 0 4px rgba(255,209,102,0.12);border-radius:8px}
+.emoji{font-size:1.9rem;display:flex;width:44px;height:44px;align-items:center;justify-content:center}
+.term{font-size:1.15rem;color:#fff;font-weight:600}
+.card-body{padding:6px 18px 22px;display:flex;flex-direction:column;gap:12px}
+.libras-symbol{padding:16px;border-radius:14px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.10)}
+.symbol-title{font-weight:700;margin-bottom:10px;color:#ffd166}
+.symbol-graphic{font-size:2.2rem;margin-bottom:8px}
+.symbol-desc{margin:0;color:#d7e7ff;line-height:1.6}
+.definition{font-size:1rem;color:#e6eef8;margin:0}
+.site-footer{text-align:center;padding:20px;color:#9fb7d4}
+
+/* Visual states */
+.card[open]{transform:scale(1.01);box-shadow:0 12px 30px rgba(0,0,0,0.45)}
+.card summary:hover .term{color:var(--accent)}
+
+/* Melhor foco para teclado */
+summary:focus{outline: none}
+summary::-webkit-details-marker{display:none}
+
+/* Layout responsivo */
+@media (max-width:880px){
+  .container{grid-template-columns:1fr;padding:0 16px}
+  .svg-illustration{height:96px}
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{transition:none!important}
+}
