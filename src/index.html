@@ -79,7 +79,18 @@
       </div>
     </section>
   </main>
-</body>
-</html>
+  <script>
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      card.addEventListener('toggle', () => {
+        if (!card.open) return;
+        cards.forEach(other => {
+          if (other !== card) {
+            other.open = false;
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
