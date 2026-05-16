@@ -1,7 +1,7 @@
 # 05 — Diário de Bordo do Grupo
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*
+> **Grupo:** *Cecilia Teresa Bernardes, Domiciano Gabriel Negrini Vieira, Gabriela Campos Dias*  
+> **Aplicação:** *Dicionário Interativo de Valores em Libras*
 
 ---
 
@@ -11,32 +11,39 @@
 
 ## Registro de Atividades
 
-### Semana 01 — ___/___/___ a ___/___/___
+### Semana 01 — 07/03/2026 a 21/03/2026
 
 **O que foi feito:**
-*(Descrever as atividades realizadas nesta semana: desenvolvimento, reuniões, testes, etc.)*
+*Reunião com a comunidade para definir a proposta da aplicação e organizar as etapas do desenvolvimento. Foram discutidos os objetivos do projeto, o público-alvo e as principais funcionalidades do dicionário interativo.*
 
 **Quem participou:**
-*(Listar integrantes envolvidos.)*
+*Cecilia Teresa Bernardes,
+Domiciano Gabriel Negrini Vieira,
+Gabriela Campos Dias*
 
 **Decisões técnicas tomadas:**
-*(Alguma decisão relevante sobre tecnologia, escopo, design, etc.?)*
+*Decisão do tema do projeto e planejamento inicial da entrutura das páginas*
 
 **Próximos passos:**
-*(O que precisa ser feito na próxima semana?)*
+*Desenvolver a base do frontend, criar o design inicial das páginas, iniciar a implementação do backend e organizar o conteúdo que será inserido na aplicação.*
 
 ---
 
-### Semana 02 — ___/___/___ a ___/___/___
+### Semana 02 — 21/03/2026 a 16/05/2026
 
 **O que foi feito:**
+*Início do desenvolvimento prático da aplicação, criando a base do frontend e o design inicial das páginas. Foi estruturada a tela principal e definido os elementos visuais.Também foi iniciado o desenvolvimento do backend, responsável pelo armazenamento das informações relacionadas aos valores presentes no dicionário.*
 
 **Quem participou:**
+*Cecilia Teresa Bernardes,
+Domiciano Gabriel Negrini Vieira,
+Gabriela Campos Dias*
 
 **Decisões técnicas tomadas:**
+*Estruturação inicial do backend para facilitar a integração com o frontend, organização da interface, definição de como os vídeos em Libras serão exibidos e dos primeiros valores inseridos*
 
 **Próximos passos:**
-
+*Inserir vídeos dos sinais em Libras, realização de testes e ajustar detalhes visuais da página*
 ---
 
 ### Semana 03 — ___/___/___ a ___/___/___
