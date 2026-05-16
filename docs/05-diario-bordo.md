@@ -44,6 +44,7 @@ Gabriela Campos Dias.*
 
 **Próximos passos:**
 *Inserir vídeos dos sinais em Libras, realização de testes e ajustar detalhes visuais da página.*
+
 ---
 
 ### Semana 03 — ___/___/___ a ___/___/___
