@@ -8,37 +8,50 @@
 
 | Campo | Informação |
 |-------|-----------|
-| Nome da aplicação | *(preencher)* |
-| Tecnologias utilizadas | *(preencher)* |
+| Nome da aplicação | *(Dicionário de Virtudes)* |
+| Tecnologias utilizadas | *(HTML, CSS Node.js)* |
 | URL em produção | *(preencher, se hospedado)* |
 
 ## Como Executar Localmente
 
-*(Descreva os passos para rodar a aplicação localmente.)*
-
 ```bash
-# Exemplo:
-# 1. Clone o repositório
-git clone <url-do-repositorio>
+### Pré-requisitos
+Antes de começar você deve ter instalado em sua máquina:
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/)
 
-# 2. Instale as dependências
+# 1. Clone o repositório
+git clone https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6.git
+
+# 2. Acesse a pasta do projeto
+cd seminarios3-manha-2026-01-grupo-6
+
+#3. Entre no diretório do backend
+cd src/backend
+
+# 4. Instale as dependências
+# (Certifique-se de estar dentro do diretório "backend" como mostrado no passo anterior)
 npm install
 
-# 3. Execute a aplicação
+#5. Inicie o servidor
 npm start
 ```
 
 ## Estrutura do Código
 
 ```
-src/
-├── index.html
-├── style.css
-├── script.js
-└── ...
+└── src/
+    ├── backend/
+    │   ├── node_modules/
+    │   ├── public/
+    │   │   ├── index.html
+    │   │   └── styles.css  
+    │   ├── index.js
+    │   ├── package-lock.json
+    │   └── package.json
+    └── README.md
 ```
 
-*(Adapte conforme as tecnologias escolhidas pelo grupo.)*
 
 ## Deploy
 
