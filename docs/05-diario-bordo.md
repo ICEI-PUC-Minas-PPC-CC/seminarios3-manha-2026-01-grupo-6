@@ -19,10 +19,10 @@
 **Quem participou:**
 *Cecilia Teresa Bernardes,
 Domiciano Gabriel Negrini Vieira,
-Gabriela Campos Dias*
+Gabriela Campos Dias.*
 
 **Decisões técnicas tomadas:**
-*Decisão do tema do projeto e planejamento inicial da entrutura das páginas*
+*Decisão do tema do projeto e planejamento inicial da entrutura das páginas.*
 
 **Próximos passos:**
 *Desenvolver a base do frontend, criar o design inicial das páginas, iniciar a implementação do backend e organizar o conteúdo que será inserido na aplicação.*
@@ -37,13 +37,13 @@ Gabriela Campos Dias*
 **Quem participou:**
 *Cecilia Teresa Bernardes,
 Domiciano Gabriel Negrini Vieira,
-Gabriela Campos Dias*
+Gabriela Campos Dias.*
 
 **Decisões técnicas tomadas:**
-*Estruturação inicial do backend para facilitar a integração com o frontend, organização da interface, definição de como os vídeos em Libras serão exibidos e dos primeiros valores inseridos*
+*Estruturação inicial do backend para facilitar a integração com o frontend, organização da interface, definição de como os vídeos em Libras serão exibidos e dos primeiros valores inseridos.*
 
 **Próximos passos:**
-*Inserir vídeos dos sinais em Libras, realização de testes e ajustar detalhes visuais da página*
+*Inserir vídeos dos sinais em Libras, realização de testes e ajustar detalhes visuais da página.*
 ---
 
 ### Semana 03 — ___/___/___ a ___/___/___
