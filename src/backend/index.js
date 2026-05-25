@@ -59,8 +59,4 @@ app.get(ENDPOINT_VIRTUDES, (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor backend rodando em http://localhost:${PORT}`);
     console.log(`Rota de dados em: http://localhost:${PORT}${ENDPOINT_VIRTUDES}`);
-<<<<<<< HEAD
-=======
-    console.log(`Aguarando conexão com o frontend`);
->>>>>>> 61354d54dbab4632729bec8bdac699b250e5d6fa
 })
