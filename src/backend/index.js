@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-const path = require('path');
-
-=======
->>>>>>> 61354d54dbab4632729bec8bdac699b250e5d6fa
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -13,14 +8,6 @@ const ENDPOINT_VIRTUDES = '/api/valores';
 app.use(cors());
 app.use(express.json());
 
-<<<<<<< HEAD
-app.use(express.static(path.join(__dirname, 'public')));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-=======
->>>>>>> 61354d54dbab4632729bec8bdac699b250e5d6fa
 const virtudesCardeais = [
     {
         id: 1,
