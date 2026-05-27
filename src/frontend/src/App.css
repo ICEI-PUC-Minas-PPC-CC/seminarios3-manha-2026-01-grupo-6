@@ -9,7 +9,7 @@
 body{
   margin:0;
   font-family:Arial, sans-serif;
-  background:linear-gradient(180deg,var(--bg),#071023 120%);
+  background: var(--bg);
   color:var(--muted);
 }
 
@@ -20,10 +20,13 @@ body{
 
 .site-header h1{
   color:var(--accent);
+  font-size:3rem;
+  margin-bottom:0.3rem;
 }
 
 .lead{
   color:white;
+  font-size:1.1rem;
 }
 
 .container{
@@ -41,21 +44,22 @@ body{
 .card{
   background:var(--card);
   border-radius:var(--radius);
-  padding:15px;
+  padding:20px;
   border:1px solid rgba(255,255,255,0.1);
 }
 
 .card-summary{
   cursor:pointer;
-  font-size:1.2rem;
+  font-size:1.5rem;
   font-weight:bold;
   color:white;
 }
 
 .card-body{
-  margin-top:10px;
+  margin-top:15px;
 }
 
 .definition{
-  line-height:1.5;
+  line-height:1.6;
+  font-size:1.1rem;
 }
