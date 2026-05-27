@@ -47,15 +47,21 @@ Gabriela Campos Dias.*
 
 ---
 
-### Semana 03 — ___/___/___ a ___/___/___
+### Semana 03 — 17/05/2026 a 26/05/2025
 
 **O que foi feito:**
+*Análise do protótipo frontend da aplicação e configuração do ambiente de desenvolvimento local.*
 
 **Quem participou:**
+*Cecilia Teresa Bernardes,
+Domiciano Gabriel Negrini Vieira,
+Gabriela Campos Dias.*
 
 **Decisões técnicas tomadas:**
+*Adoção do React como tecnologia principal do frontend.*
 
 **Próximos passos:**
+*Inserir os vídeos dos sinais em Libras e preparar a aplicação para hospedagem.*
 
 ---
 
