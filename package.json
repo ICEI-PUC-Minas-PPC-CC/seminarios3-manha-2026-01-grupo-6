@@ -1,0 +1,31 @@
+{
+  "name": "seminarios3-manha-2026-01-grupo-6",
+  "version": "1.0.0",
+  "description": "> **Disciplina:** Seminários III — PUC Minas  \r > **Professor Responsável:** Harison Herman Silva  \r > **Formato:** Sala de aula invertida (protagonismo dos alunos)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "private": true,
+  "workspaces": [
+    "src/backend",
+    "src/frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=src/backend\" \"npm start --workspace=src/frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6/issues"
+  },
+  "homepage": "https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
