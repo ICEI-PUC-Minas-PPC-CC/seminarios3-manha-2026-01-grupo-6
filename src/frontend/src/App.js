@@ -18,9 +18,9 @@ function App() {
   return (
     <div className="app">
       <header className="site-header">
-        <h1>Glossário das Virtudes</h1>
+        <h1>VALORES</h1>
         <p className="lead">
-          Clique em uma virtude para ver seu significado.
+          Clique em um valor para mostrar seu significado e representação em vídeo
         </p>
       </header>
 
