@@ -10,6 +10,12 @@ app.use(express.json());
 
 const virtudesCardeais = [
     {
+        id: 0,
+        titulo: "Virtude",
+        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        significado: "Virtude é a capacidade constante de escolher o que é correto e bom de forma consciente"
+    },
+    {
         id: 1,
         titulo: "Prudência",
         youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
