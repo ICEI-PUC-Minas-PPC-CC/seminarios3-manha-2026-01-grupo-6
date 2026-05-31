@@ -24,7 +24,7 @@ Antes de começar você deve ter instalado em sua máquina:
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6.git](https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6.git)
+git clone https://github.com/ICEI-PUC-Minas-PPC-CC/seminarios3-manha-2026-01-grupo-6.git
 
 # 2. Acesse a pasta do projeto
 cd seminarios3-manha-2026-01-grupo-6
@@ -42,12 +42,23 @@ npm run dev
 └── src/
     ├── backend/
     │   ├── node_modules/
-    │   ├── public/
-    │   │   ├── index.html
-    │   │   └── styles.css  
     │   ├── index.js
     │   ├── package-lock.json
     │   └── package.json
+    ├── frontend/
+    │   ├── node_modules/
+    │   ├── public/
+    │   └── src/
+    │       ├── App.css
+    │       ├── App.js
+    │       ├── index.css
+    │       ├── index.js
+    │       ├── reportWebVitals.js
+    │       ├── setupTeste.js
+    │       ├── .gitignore
+    │       ├── package-lock.json
+    │       ├── package.json
+    │       └── README.md
     └── README.md
 ```
 
