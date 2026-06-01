@@ -12,34 +12,34 @@ const virtudesCardeais = [
     {
         id: 0,
         titulo: "Virtude",
-        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        youtubeId: "wFOD0K1xWtI", //Reservado para o id real do vídeo fornecido pela instituição
         significado: "Virtude é a capacidade constante de escolher o que é correto e bom de forma consciente"
     },
     {
         id: 1,
         titulo: "Prudência",
-        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        youtubeId: "AJd5Jh1t9YE", //Reservado para o id real do vídeo fornecido pela instituição
         significado: "A virtude de agir com cautela e sensatez"
     },
 
     {
         id: 2,
         titulo: "Justiça",
-        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        youtubeId: "BJqfHpAFXt0", //Reservado para o id real do vídeo fornecido pela instituição
         significado: "Princípio ético e moral que busca a o equilíbrio e a igualdade de direitos"
     },
 
     {
         id: 3,
         titulo: "Fortaleza",
-        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        youtubeId: "ZEAxQlJSPMY", //Reservado para o id real do vídeo fornecido pela instituição
         significado: "A firmeza e constância na luta pelo bem, mesmo diante de obstáculos"
     },
 
     {
         id: 4,
         titulo: "Temperança",
-        youtubeId: "", //Reservado para o id real do vídeo fornecido pela instituição
+        youtubeId: "hyVqdCMhF7Q", //Reservado para o id real do vídeo fornecido pela instituição
         significado: "A virtude do equilíbrio e moderação, a capacidade de controlar seus impulsos"
     },
 
