@@ -6,25 +6,41 @@ body {
 }
 
 .container {
-  padding: 20px;
+  padding: 12px 10px 16px;
   text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: clamp(2.8rem, 4vw, 4.5rem);
+  margin: 0;
+  letter-spacing: 0.12em;
+}
+
+header p {
+  font-size: clamp(1.05rem, 2vw, 1.4rem);
+  margin: 10px 0 0;
 }
 
 /* Grid de Cards */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(4, minmax(210px, 1fr));
   gap: 20px;
   background-color: #3b4cca; /* Fundo azul marinho */
-  padding: 40px;
-  border-radius: 8px;
-  max-width: 1000px;
+  padding: 28px;
+  border-radius: 10px;
+  max-width: none;
+  width: min(100%, calc(100vw - 36px));
   margin: 0 auto;
 }
 
 .card {
   background-color: #55a694; /* Verde água dos botões */
-  height: 120px;
+  min-height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +49,8 @@ body {
   cursor: pointer;
   transition: transform 0.2s;
   font-weight: bold;
+  font-size: 1.3rem;
+  padding: 16px;
 }
 
 .card:hover {
