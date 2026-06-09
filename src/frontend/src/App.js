@@ -17,7 +17,7 @@ function App() {
     <div className="container">
       <header>
         <h1>VIRTUDES</h1>
-        <p>Clique em um cartão para mostrar seu significado e representação em vídeo</p>
+        <p>Clique em um cartão para mostrar seu significado e o Sinal</p>
       </header>
 
       {/* Grade de 15 cards */}
