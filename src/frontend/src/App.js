@@ -39,7 +39,7 @@ function App() {
           <div className="modal-content">
             <button className="close-btn" onClick={() => setItemSelecionado(null)}>×</button>
             
-            <h3>{itemSelecionado.titulo}: Representação visual</h3>
+            <h3>Sinal de {itemSelecionado.titulo}</h3>
             
             <div className="video-container">
               <iframe

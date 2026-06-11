@@ -40,7 +40,7 @@ const virtudesCardeais = [
         id: 4,
         titulo: "Temperança",
         youtubeId: "hyVqdCMhF7Q", //Reservado para o id real do vídeo fornecido pela instituição
-        significado: "A virtude do equilíbrio e moderação, a capacidade de controlar seus impulsos"
+        significado: "A virtude do equilíbrio e moderação, a capacidade de controlar seus impulsos."
     },
 
 ]
