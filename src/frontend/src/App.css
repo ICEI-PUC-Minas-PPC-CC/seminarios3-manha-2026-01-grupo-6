@@ -1,111 +1,245 @@
 /* Geral */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: #ccc; /* Fundo cinza da imagem */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #dde5f0;
+  min-height: 100vh;
+  color: #2c3e50;
 }
 
 .container {
-  padding: 12px 10px 16px;
+  padding: 25px;
   text-align: center;
 }
 
+/* Cabeçalho */
 header {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 header h1 {
   font-size: clamp(2.8rem, 4vw, 4.5rem);
   margin: 0;
-  letter-spacing: 0.12em;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1f3c88;
 }
 
 header p {
   font-size: clamp(1.05rem, 2vw, 1.4rem);
-  margin: 10px 0 0;
+  max-width: 700px;
+  margin: 12px auto 0;
+  color: #4f5d75;
 }
 
-/* Grid de Cards */
+/* Painel Azul */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(210px, 1fr));
-  gap: 20px;
-  background-color: #3b4cca; /* Fundo azul marinho */
-  padding: 28px;
-  border-radius: 10px;
-  max-width: none;
-  width: min(100%, calc(100vw - 36px));
+  grid-template-columns: repeat(4, minmax(190px, 1fr));
+  gap: 24px;
+
+  background: linear-gradient(135deg, #1f3c88, #2f5fd0);
+  padding: 26px;
+  border-radius: 25px;
+
+  width: min(97%, 1250px);
   margin: 0 auto;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
 }
 
+/* Cards */
 .card {
-  background-color: #55a694; /* Verde água dos botões */
-  min-height: 160px;
+  background: white;
+  min-height: 125px;
+
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
-  border-radius: 15px;
+
+  gap: 8px;
+
+  color: #1f3c88;
+  border-radius: 18px;
+
   cursor: pointer;
-  transition: transform 0.2s;
-  font-weight: bold;
-  font-size: 1.3rem;
-  padding: 16px;
+
+  font-weight: 700;
+  font-size: 1.45rem;
+
+  text-align: center;
+  padding: 12px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+
+  transition: all 0.3s ease;
 }
 
+/* Emoji */
+.emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+/* Hover */
 .card:hover {
-  transform: scale(1.05);
-  filter: brightness(1.1);
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-/* Modal (Tela 2) */
+.card:hover .emoji {
+  transform: scale(1.15) rotate(8deg);
+}
+
+/* Clique */
+.card:active {
+  transform: scale(0.96);
+}
+
+/* Fundo do Modal */
 .modal-overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(180, 180, 220, 0.8); /* Efeito lilás/transparente */
+  inset: 0;
+
+  background: rgba(25, 35, 60, 0.75);
+  backdrop-filter: blur(5px);
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 20px;
 }
 
+/* Modal */
 .modal-content {
-  background: #a8a8a8; /* Cinza do modal */
-  padding: 30px;
-  border-radius: 20px;
-  width: 80%;
-  max-width: 700px;
+  background: white;
+  border: 1px solid #e5e7eb;
+
+  padding: 35px;
+  border-radius: 25px;
+
+  width: 90%;
+  max-width: 950px;
+
   position: relative;
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+
+  animation: aparecer 0.35s ease;
 }
 
+/* Animação do Modal */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Botão Fechar */
 .close-btn {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 20px;
-  font-size: 30px;
+
   background: none;
   border: none;
+
+  font-size: 30px;
+  color: #666;
+
   cursor: pointer;
+  transition: all 0.25s ease;
 }
 
+.close-btn:hover {
+  color: #e74c3c;
+  transform: rotate(90deg);
+}
+
+/* Título do Modal */
+.modal-content h3 {
+  font-size: 2rem;
+  color: #1f3c88;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Vídeo */
 .video-container {
   width: 100%;
   aspect-ratio: 16 / 9;
-  background: #888;
-  margin: 20px 0;
+
+  overflow: hidden;
+  border-radius: 15px;
+
+  margin: 25px 0;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
 }
 
 .video-container iframe {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border: none;
 }
 
+/* Caixa de Significado */
 .significado-box {
-  background: #e0e0e0;
-  padding: 15px;
+  background: #f8fafc;
+
+  padding: 22px;
   border-radius: 15px;
+
   text-align: left;
+
+  border-left: 5px solid #2f5fd0;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+  font-size: 1.35rem;
+  line-height: 1.8;
+}
+
+.significado-box strong {
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 1.5rem;
+  color: #1f3c88;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 110px;
+    font-size: 1.25rem;
+  }
+
+  .emoji {
+    font-size: 2.2rem;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 20px;
+  }
 }

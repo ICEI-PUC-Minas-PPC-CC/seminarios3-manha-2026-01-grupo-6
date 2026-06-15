@@ -23,13 +23,14 @@ function App() {
       {/* Grade de 15 cards */}
       <div className="grid">
         {valores.map(item => (
-          <div 
-            key={item.id} 
-            className="card" 
-            onClick={() => setItemSelecionado(item)}
-          >
-            {item.titulo}
-          </div>
+         <div
+  key={item.id}
+  className="card"
+  onClick={() => setItemSelecionado(item)}
+>
+  <span className="emoji">{item.emoji}</span>
+  <span>{item.titulo}</span>
+</div>
         ))}
       </div>
 

@@ -9,39 +9,45 @@ app.use(cors());
 app.use(express.json());
 
 const virtudesCardeais = [
-    {
+     {
         id: 0,
         titulo: "Virtude",
-        youtubeId: "wFOD0K1xWtI", //Reservado para o id real do vídeo fornecido pela instituição
+        emoji: "⭐",
+        youtubeId: "wFOD0K1xWtI",
         significado: "Virtude é a capacidade constante de escolher o que é correto e bom de forma consciente."
     },
+
     {
         id: 1,
         titulo: "Prudência",
-        youtubeId: "AJd5Jh1t9YE", //Reservado para o id real do vídeo fornecido pela instituição
+        emoji: "🦉",
+        youtubeId: "AJd5Jh1t9YE",
         significado: "A virtude de agir com cautela e sensatez."
     },
 
     {
         id: 2,
         titulo: "Justiça",
-        youtubeId: "BJqfHpAFXt0", //Reservado para o id real do vídeo fornecido pela instituição
-        significado: "Princípio ético e moral que busca a o equilíbrio e a igualdade de direitos."
+        emoji: "⚖️",
+        youtubeId: "BJqfHpAFXt0",
+        significado: "Princípio ético e moral que busca o equilíbrio e a igualdade de direitos."
     },
 
     {
         id: 3,
         titulo: "Fortaleza",
-        youtubeId: "ZEAxQlJSPMY", //Reservado para o id real do vídeo fornecido pela instituição
+        emoji: "🛡️",
+        youtubeId: "ZEAxQlJSPMY",
         significado: "A firmeza e constância na luta pelo bem, mesmo diante de obstáculos."
     },
 
     {
         id: 4,
         titulo: "Temperança",
-        youtubeId: "hyVqdCMhF7Q", //Reservado para o id real do vídeo fornecido pela instituição
+        emoji: "🌿",
+        youtubeId: "hyVqdCMhF7Q",
         significado: "A virtude do equilíbrio e moderação, a capacidade de controlar seus impulsos."
-    },
+    }
 
 ]
 
