@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Quiz from './Quiz';
 
 function App() {
   const [valores, setValores] = useState([
@@ -33,6 +34,9 @@ function App() {
 </div>
         ))}
       </div>
+
+      {/* Quiz das Virtudes */}
+      <Quiz valores={valores} />
 
       {/* Modal (Segunda Tela) */}
       {itemSelecionado && (
