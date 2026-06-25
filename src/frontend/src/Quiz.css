@@ -137,6 +137,10 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+.quiz-resultado-final {
+  color: white;
+}
+
 /* Responsividade */
 @media (max-width: 600px) {
   .quiz-opcoes {
