@@ -8,7 +8,7 @@ function App() {
   const [itemSelecionado, setItemSelecionado] = useState(null);
 
   useEffect(() => {
-    fetch('virtudes-api-production.up.railway.app/api/valores')
+    fetch('https://virtudes-api-production.up.railway.app/api/valores/')
       .then(res => res.json())
       .then(data => setValores(data))
       .catch(err => console.error("Erro ao carregar valores:", err));
