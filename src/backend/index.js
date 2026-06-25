@@ -10,15 +10,15 @@ app.use(express.json());
 
 const virtudesCardeais = [
      {
-        id: 0,
+        id: 1,
         titulo: "Virtude",
         emoji: "⭐",
         youtubeId: "wFOD0K1xWtI",
-        significado: "Virtude é a capacidade constante de escolher o que é correto e bom de forma consciente."
+        significado: "Disposição habitual e firme para fazer o bem sempre."
     },
 
     {
-        id: 1,
+        id: 2,
         titulo: "Prudência",
         emoji: "🦉",
         youtubeId: "AJd5Jh1t9YE",
@@ -26,15 +26,15 @@ const virtudesCardeais = [
     },
 
     {
-        id: 2,
+        id: 3,
         titulo: "Justiça",
         emoji: "⚖️",
         youtubeId: "BJqfHpAFXt0",
-        significado: "Princípio ético e moral que busca o equilíbrio e a igualdade de direitos."
+        significado: "Tratar as pessoas de maneira correta, dando a cada uma o que é devido."
     },
 
     {
-        id: 3,
+        id: 4,
         titulo: "Fortaleza",
         emoji: "🛡️",
         youtubeId: "ZEAxQlJSPMY",
@@ -42,7 +42,7 @@ const virtudesCardeais = [
     },
 
     {
-        id: 4,
+        id: 5,
         titulo: "Temperança",
         emoji: "🌿",
         youtubeId: "hyVqdCMhF7Q",
