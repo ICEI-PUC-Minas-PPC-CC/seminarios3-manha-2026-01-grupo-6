@@ -3,8 +3,7 @@ import './App.css';
 import Quiz from './Quiz';
 
 function App() {
-  const [valores, setValores] = useState([
-  ]);
+  const [valores, setValores] = useState([]);
   const [itemSelecionado, setItemSelecionado] = useState(null);
 
   useEffect(() => {
@@ -21,31 +20,32 @@ function App() {
         <p>Clique em um cartão para mostrar seu significado e o Sinal</p>
       </header>
 
-      {/* Grade de 15 cards */}
       <div className="grid">
         {valores.map(item => (
-         <div
-  key={item.id}
-  className="card"
-  onClick={() => setItemSelecionado(item)}
->
-  <span className="emoji">{item.emoji}</span>
-  <span>{item.titulo}</span>
-</div>
+          <div
+            key={item.id}
+            className="card"
+            onClick={() => setItemSelecionado(item)}
+          >
+            <span>{item.titulo}</span>
+          </div>
         ))}
       </div>
 
-      {/* Quiz das Virtudes */}
       <Quiz valores={valores} />
 
-      {/* Modal (Segunda Tela) */}
       {itemSelecionado && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <button className="close-btn" onClick={() => setItemSelecionado(null)}>×</button>
-            
+            <button
+              className="close-btn"
+              onClick={() => setItemSelecionado(null)}
+            >
+              ×
+            </button>
+
             <h3>Sinal de {itemSelecionado.titulo}</h3>
-            
+
             <div className="video-container">
               <iframe
                 src={`https://www.youtube.com/embed/${itemSelecionado.youtubeId}`}

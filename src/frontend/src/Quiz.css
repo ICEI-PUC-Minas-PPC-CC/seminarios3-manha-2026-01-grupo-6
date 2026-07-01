@@ -47,7 +47,6 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
 }
 
-/* Grade de opções */
 .quiz-opcoes {
   display: grid;
   grid-template-columns: repeat(2, minmax(190px, 1fr));
@@ -68,13 +67,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   transition: all 0.25s ease;
-}
-
-.quiz-opcao-emoji {
-  font-size: 1.6rem;
 }
 
 .quiz-opcao:hover:not(:disabled) {
@@ -100,7 +94,6 @@
   opacity: 0.55;
 }
 
-/* Feedback após responder */
 .quiz-feedback {
   margin-top: 24px;
 }
@@ -141,7 +134,6 @@
   color: white;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
   .quiz-opcoes {
     grid-template-columns: 1fr;
